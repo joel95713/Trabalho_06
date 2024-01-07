@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(32, 33, 36);
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div > a, nav > a {
+  text-decoration: none;
+  color: rgb(112, 117, 122);
+  padding-right: 15px;
+  
+}
+
+/* HEADER */
+
+.barra {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+header > div > nav > a {
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+}
+
+header > div > nav > a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN */
+
+#imagemgoogle {
+  padding: 20px;
+}
+
+.pesquisa {
+  display: flex;
+  height: 40px;
+  width: 580px;
+  border: 1px solid rgba(223, 225, 229,1);
+  border-radius: 24px;
+  margin: auto;
+}
+
+.pesquisa:hover {
+  box-shadow: 0 1px 6px rgba(30, 30, 30, 0.3);
+}
+
+.intpesquisa {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+}
+
+#lupa {
+  width: 18px;
+  height: 18px;
+  padding: 0px 5px 0px 5px;
+}
+
+.icons {
+  padding-right: 20px;
+}
+
+input {
+  border: none;
+  font-size: 18px;
+  width: 480px;
+  outline: none;
+}
+
+.buttons {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: rgb(32, 33, 36);
+  padding-top: 20px;
+}
+
+.buttons > button {
+  background-color: rgb(248, 249, 250);
+  border: 1px solid rgb(248, 249, 250);
+  border-radius: 5px;
+  color: rgb(60, 64, 67);
+  cursor: pointer;
+  font-size: 14px;
+  margin: 10px 5px;
+  padding: 0 15px;
+  height: 36px;
+}
+
+.buttons > button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: rgb(248, 249, 250);
+  border: 1px solid rgba(218, 220, 224, 1);
+  color: rgba(32, 33, 36, 1);
+}
+
+.english {
+  padding: 20px;
+}
+
+.english > p > a {
+  text-decoration: none;
+}
+
+.english > p > a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 242, 242);
+}
+.footer1 {
+  padding: 15px 30px;
+  border-bottom: 1px solid rgba(218, 220, 224, 1);
+  color: rgba(112, 117, 122, 1);
+  text-align: left;
+}
+
+.footer2 > a > img {
+  width: 12px;
+  padding-right: 5px;
+}
+
+.footer2 {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 20px 0;
+}
+
+.footer2 > a:hover {
+  text-decoration: underline;
+}
+
+.footerlinks {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footerlinks > nav > a:hover {
+  text-decoration: underline;
+}
